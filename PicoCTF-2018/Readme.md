@@ -9,7 +9,8 @@ But you know what you know, I guess.
 
 ## Current CTF status
 
-TODO
+Score: 8560
+
 
 
 ## Content
@@ -49,7 +50,7 @@ TODO
 
 |Name|Points|Status|Write up
 |-|-|-|-|
-|[Forensics Warmup 1](Forensics/Forensics%20Warmup%201)|50|Solved|No|
+|[Forensics Warmup 1](Forensics/Forensics%20Warmup%201)|50|Solved|Next up|
 |[Forensics Warmup 2](Forensics/Forensics%20Warmup%202)|50|Solved|No|
 |[Desrouleaux](Forensics/Desrouleaux)|150|Solved|No|
 |[Reading Between the Eyes](Forensics/Reading%20Between%20the%20Eyes)|150|Solved|No|
