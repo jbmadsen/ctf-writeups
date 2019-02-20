@@ -4,7 +4,7 @@ These write-ups explains the things I learned solving the tasks. Since this was 
 
 But you know what you know, I guess. 
 
-**Note:** This page only contains challenges I actually completed. 
+**Note:** All writeup will be using Linux to solve the challenges.  
 
 
 ## Current CTF status
@@ -31,6 +31,11 @@ Score: 8560
 |[leak-me](Binary%20Exploitation/leak-me)|200|Solved|No|
 |[shellcode](Binary%20Exploitation/shellcode)|200|Solved|No|
 |[buffer overflow 2](Binary%20Exploitation/buffer%20overflow%202)|250|Next up|No|
+|got-2-learn-libc|250|Unsolved|No|
+|echooo|300|Unsolved|No|
+|got-shell?|350|Unsolved|No|
+||||
+
 
 ### Cryptography
 
@@ -44,6 +49,9 @@ Score: 8560
 |[blaise's cipher](Cryptography/blaise%27s%20cipher)|200|Solved|No|
 |[hertz 2](Cryptography/hertz%202)|200|Solved|No|
 |[caesar cipher 2](Cryptography/caesar%20cipher%202)|150|Solved|No|
+|rsa-madlibs|250|Unsolved|No|
+|SpyFi|300|Unsolved|No|
+|Magic Padding Oracle|450|Unsolved|No|
 
 
 ### Forensics
@@ -62,6 +70,8 @@ Score: 8560
 |[Ext Super Magic](Forensics/Ext%20Super%20Magic)|250|Solved|No|
 |[Lying Out](Forensics/Lying%20Out)|250|Solved|No|
 |[What's My Name?](Forensics/What%27s%20My%20Name)|250|Solved|No|
+|Malware Shops|400|Unsolved|No|
+|LoadSomeBits|550|Unsolved|No|
 
 
 ### General Skills
@@ -83,6 +93,12 @@ Score: 8560
 |[what base is this?](General%20Skills/what%20base%20is%20this)|200|Solved|No|
 |[you can't see me](General%20Skills/you%20can%27t%20see%20me)|200|Solved|No|
 |[absolutely relative](General%20Skills/absolutely%20relative)|200|Solved|No|
+|in out error|275|Unsolved|No|
+|learn gdb|300|Unsolved|No|
+|store|400|Unsolved|No|
+|script me|500|Unsolved|No|
+|Dog or Frog|900|Unsolved|No|
+
 
 ### Reversing
 
@@ -95,6 +111,12 @@ Score: 8560
 |[be-quick-or-be-dead-1](Reversing/be-quick-or-be-dead-1)|200|Solved|No|
 |[quackme](Reversing/quackme)|200|Solved|No|
 |[assembly-2](Reversing/assembly-2)|250|Solved|No|
+|be-quick-or-be-dead-2|275|Unsolved|No|
+|quackme up|350|Unsolved|No|
+|Radix's Terminal|400|Unsolved|No|
+|assembly-3|400|Unsolved|No| 
+|keygen-me-1|400|Unsolved|No|
+
 
 ### Web Exploitation
 
@@ -109,3 +131,10 @@ Score: 8560
 |[Secret Agent](Web%20Exploitation/Secret%20Agent)|200|Solved|No|
 |[Buttons](Web%20Exploitation/Buttons)|250|Solved|No|
 |[The Vault](Web%20Exploitation/The%20Vault)|250|Solved|No|
+|Artisinal Handcrafted HTTP 3|300|Unsolved|No|
+|Flaskcards|350|Unsolved|No|
+|fancy-alive-monitoring|400|Unsolved|No|
+|Secure Logon|500|Unsolved|No| 
+|Help Me Reset 2|600|Unsolved|No|
+|A Simple Question|650|Unsolved|No|
+|LambDash 3|800|Unsolved|No|
