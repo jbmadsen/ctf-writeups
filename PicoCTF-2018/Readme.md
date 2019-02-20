@@ -2,7 +2,7 @@
 
 These write-ups explains the things I learned solving the tasks. Since this was the first CTF I did, some of the methods used getting the right answers might not be conventional, and some might be downright stupid in hindsight and with more knowledge :)
 
-But you know what you know, I guess.
+But you know what you know, I guess. 
 
 **Note:** This page only contains challenges I actually completed. 
 
@@ -50,8 +50,8 @@ Score: 8560
 
 |Name|Points|Status|Write up
 |-|-|-|-|
-|[Forensics Warmup 1](Forensics/Forensics%20Warmup%201)|50|Solved|Next up|
-|[Forensics Warmup 2](Forensics/Forensics%20Warmup%202)|50|Solved|No|
+|[Forensics Warmup 1](Forensics/Forensics%20Warmup%201)|50|Solved|Yes|
+|[Forensics Warmup 2](Forensics/Forensics%20Warmup%202)|50|Solved|Yes|
 |[Desrouleaux](Forensics/Desrouleaux)|150|Solved|No|
 |[Reading Between the Eyes](Forensics/Reading%20Between%20the%20Eyes)|150|Solved|No|
 |[Recovering From the Snap](Forensics/Recovering%20From%20the%20Snap)|150|Solved|No|
@@ -68,9 +68,9 @@ Score: 8560
 
 |Name|Points|Status|Write up
 |-|-|-|-|
-|[General Skills 1](General%20Skills/General%20Warmup%201)|50|Solved|No|
-|[General Skills 2](General%20Skills/General%20Warmup%202)|50|Solved|No|
-|[General Skills 3](General%20Skills/General%20Warmup%203)|50|Solved|No|
+|[General Skills 1](General%20Skills/General%20Warmup%201)|50|Solved|Next up|
+|[General Skills 2](General%20Skills/General%20Warmup%202)|50|Solved|Next up|
+|[General Skills 3](General%20Skills/General%20Warmup%203)|50|Solved|Next up|
 |[Resources](General%20Skills/Resources)|50|Solved|No|
 |[grep 1](General%20Skills/grep%201)|75|Solved|No|
 |[net cat](General%20Skills/net%20cat)|75|Solved|No|
