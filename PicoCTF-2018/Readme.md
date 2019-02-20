@@ -1,4 +1,4 @@
-# PicoCTF 2018 Writeup
+# [PicoCTF 2018](https://2018game.picoctf.com/) Writeup
 
 These write-ups explains the things I learned solving the tasks. Since this was the first CTF I did, some of the methods used getting the right answers might not be conventional, and some might be downright stupid in hindsight and with more knowledge :)
 
