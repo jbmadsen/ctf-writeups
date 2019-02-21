@@ -27,7 +27,13 @@ From the [wiki](https://en.wikipedia.org/wiki/ASCII) we see that all ASCII chara
 
 Since this is an easy challenge, where we only have to lookup a single character, a lookup in [this table](http://www.asciitable.com/) at hex position 41, gives us the answer `A`.
 
-Alternatively we could use a [Python](https://www.python.org/), which will come in handy for later challenges, using the built-in function [chr](https://docs.python.org/3/library/functions.html#chr):
+Alternatively we could use a [Python](https://www.python.org/), which will come in handy for later challenges, using the built-in function [chr](https://docs.python.org/3/library/functions.html#chr), which:
+
+> Return the string representing a character whose Unicode code point is the integer i. The valid range for the argument is from 0 through 1,114,111 (0x10FFFF in base 16). 
+
+Luckily for us, for the first 128 characters, unicode and ASCII outputs the same characters.
+
+We input:
 
 ```python
 chr(0x41)
