@@ -80,7 +80,7 @@ Score: 8560
 |-|-|-|-|
 |[General Skills 1](General%20Skills/General%20Warmup%201)|50|Solved|Yes|
 |[General Skills 2](General%20Skills/General%20Warmup%202)|50|Solved|Yes|
-|[General Skills 3](General%20Skills/General%20Warmup%203)|50|Solved|Next up|
+|[General Skills 3](General%20Skills/General%20Warmup%203)|50|Solved|Yes|
 |[Resources](General%20Skills/Resources)|50|Solved|Next up|
 |[grep 1](General%20Skills/grep%201)|75|Solved|No|
 |[net cat](General%20Skills/net%20cat)|75|Solved|No|

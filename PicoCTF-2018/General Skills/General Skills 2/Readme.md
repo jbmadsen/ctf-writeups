@@ -29,7 +29,6 @@ Basically, we are being taught how to count in binary and convert from decimal t
 
 and so on...
 
-https://docs.python.org/3/library/functions.html#bin
 
 ## Solution
 
