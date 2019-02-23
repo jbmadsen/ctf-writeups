@@ -41,8 +41,8 @@ Score: 8560
 
 |Name|Points|Status|Write up
 |-|-|-|-|
-|[Crypto Warmup 1](Cryptography/Crypto%20Warmup%201)|75|Solved|No|
-|[Crypto Warmup 2](Cryptography/Crypto%20Warmup%202)|75|Solved|No|
+|[Crypto Warmup 1](Cryptography/Crypto%20Warmup%201)|75|Solved|Next up|
+|[Crypto Warmup 2](Cryptography/Crypto%20Warmup%202)|75|Solved|Next up|
 |[HEEEEEEERE'S Johnny!](Cryptography/HEEEEEEERE%27S%20Johnny!)|100|Solved|No|
 |[caesar cipher 1](Cryptography/caesar%20cipher%201)|150|Solved|No|
 |[hertz](Cryptography/hertz)|150|Solved|No|
@@ -81,7 +81,7 @@ Score: 8560
 |[General Skills 1](General%20Skills/General%20Warmup%201)|50|Solved|Yes|
 |[General Skills 2](General%20Skills/General%20Warmup%202)|50|Solved|Yes|
 |[General Skills 3](General%20Skills/General%20Warmup%203)|50|Solved|Yes|
-|[Resources](General%20Skills/Resources)|50|Solved|Next up|
+|[Resources](General%20Skills/Resources)|50|Solved|Yes|
 |[grep 1](General%20Skills/grep%201)|75|Solved|No|
 |[net cat](General%20Skills/net%20cat)|75|Solved|No|
 |[strings](General%20Skills/strings)|100|Solved|No|
@@ -104,8 +104,8 @@ Score: 8560
 
 |Name|Points|Status|Write up
 |-|-|-|-|
-|[Reversing Warmup 1](Reversing/Reversing%20Warmup%201)|50|Solved|No|
-|[Reversing Warmup 2](Reversing/Reversing%20Warmup%202)|50|Solved|No|
+|[Reversing Warmup 1](Reversing/Reversing%20Warmup%201)|50|Solved|Next up|
+|[Reversing Warmup 2](Reversing/Reversing%20Warmup%202)|50|Solved|Next up|
 |[assembly-0](Reversing/assembly-0)|150|Solved|No|
 |[assembly-1](Reversing/assembly-1)|200|Solved|No|
 |[be-quick-or-be-dead-1](Reversing/be-quick-or-be-dead-1)|200|Solved|No|
