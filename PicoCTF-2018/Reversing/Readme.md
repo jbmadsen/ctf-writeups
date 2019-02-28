@@ -6,8 +6,8 @@ TODO: What is the purpose of Reversing challenges?
 
 |Name|Points|Status|Write up
 |-|-|-|-|
-|[Reversing Warmup 1](Reversing%20Warmup%201)|50|Solved|Next up|
-|[Reversing Warmup 2](Reversing%20Warmup%202)|50|Solved|Next up|
+|[Reversing Warmup 1](Reversing%20Warmup%201)|50|Solved|Yes|
+|[Reversing Warmup 2](Reversing%20Warmup%202)|50|Solved|Yes|
 |[assembly-0](assembly-0)|150|Solved|No|
 |[assembly-1](assembly-1)|200|Solved|No|
 |[be-quick-or-be-dead-1](be-quick-or-be-dead-1)|200|Solved|No|
