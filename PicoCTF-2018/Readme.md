@@ -49,7 +49,7 @@ Score: 8560
 |[Reading Between the Eyes](Forensics/Reading%20Between%20the%20Eyes)|Forensics|150|Solved|No|
 |[Recovering From the Snap](Forensics/Recovering%20From%20the%20Snap)|Forensics|150|Solved|No|
 |[admin panel](Forensics/admin%20panel)|Forensics|150|Solved|No|
-|[assembly-0](Reversing/assembly-0)|Reversing|150|Solved|No|
+|[assembly-0](Reversing/assembly-0)|Reversing|150|Solved|Partly|
 |[buffer overflow 0](Binary%20Exploitation/buffer%20overflow%200)|Binary Exploitation|150|Solved|No|
 |[caesar cipher 1](Cryptography/caesar%20cipher%201)|Cryptography|150|Solved|No|
 |[environ](General%20Skills/environ)|General Skills|150|Solved|No|
@@ -61,7 +61,7 @@ Score: 8560
 |[No Login](Web%20Exploitation/No%20Login)|Web Exploitation|200|Solved|No|
 |[Secret Agent](Web%20Exploitation/Secret%20Agent)|Web Exploitation|200|Solved|No|
 |[Truly an Artist](Forensics/Truly%20an%20Artist)|Forensics|200|Solved|No|
-|[assembly-1](Reversing/assembly-1)|Reversing|200|Solved|No|
+|[assembly-1](Reversing/assembly-1)|Reversing|200|Solved|Partly|
 |[be-quick-or-be-dead-1](Reversing/be-quick-or-be-dead-1)|Reversing|200|Solved|No|
 |[blaise's cipher](Cryptography/blaise%27s%20cipher)|Cryptography|200|Solved|No|
 |[buffer overflow 1](Binary%20Exploitation/buffer%20overflow%201)|Binary Exploitation|200|Solved|No|
