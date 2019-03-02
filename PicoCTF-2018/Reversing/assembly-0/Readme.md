@@ -65,7 +65,7 @@ Next:
 	mov     ebx,DWORD PTR [ebp+0xc]
 ```
 
-The 4 bytes at [ebp+0x8] are moved to a register. This is where we are loading our first passed argument (0xb6).
+The 4 bytes at [ebp+0x8] are moved to a register (DWORD PTR is a Double-word property of 32 bits). This is where we are loading our first passed argument (0xb6).
 Next, the 4 bytes at [ebp+0xc] are moved to a register, loading our second passed argument (0xc6).
 
 We then copy the value from ebx into eax:
