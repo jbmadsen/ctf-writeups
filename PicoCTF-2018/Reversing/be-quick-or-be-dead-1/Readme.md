@@ -22,7 +22,22 @@ TODO
 
 ## Solution
 
-First, trying to run the program gives us the following:
+With only a binary file supplied, lets have a look at what we've got:
+
+```bash
+file be-quick-or-be-dead-1
+```
+
+> be-quick-or-be-dead-1: ELF 64-bit LSB executable, x86-64, version 1 (SYSV), dynamically linked, interpreter /lib64/ld-linux-x86-64.so.2, for GNU/Linux 2.6.32, BuildID[sha1]=909cc4117c2c766583b0633d70b84771e50160d6, not stripped
+
+So, an executable.
+Trying to execute the program, 
+
+```bash
+./be-quick-or-be-dead-1
+```
+
+gives us the following:
 
 > Be Quick Or Be Dead 1<br/>
 > == == == == == == == <br/>
@@ -32,11 +47,13 @@ First, trying to run the program gives us the following:
 
 Running [strings](https://linux.die.net/man/1/strings) and [grepping](https://linux.die.net/man/1/grep) for "pico{" returned nothing as well.
 
-Lets run the file trough [gdb](https://www.gnu.org/software/gdb/) instead and have a look at the disassembly of the main function, and take it from there.
+Lets run the file trough [gdb](https://www.gnu.org/software/gdb/) instead,
 
 ```bash
 gdb be-quick-or-be-dead-1
 ```
+
+and have a look at the disassembly of the main function, and take it from there.
 
 ```gdb
 (gdb) set disassembly-flavor intel
