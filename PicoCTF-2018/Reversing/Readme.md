@@ -12,7 +12,7 @@ TODO: What is the purpose of Reversing challenges?
 |[assembly-1](assembly-1)|200|Solved|Partly|
 |[be-quick-or-be-dead-1](be-quick-or-be-dead-1)|200|Solved|No|
 |[quackme](quackme)|200|Solved|No|
-|[assembly-2](assembly-2)|250|Solved|No|
+|[assembly-2](assembly-2)|250|Solved|Partly|
 |be-quick-or-be-dead-2|275|Unsolved|No|
 |quackme up|350|Unsolved|No|
 |Radix's Terminal|400|Unsolved|No|

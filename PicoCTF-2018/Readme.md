@@ -78,7 +78,7 @@ Score: 8560
 |[The Vault](Web%20Exploitation/The%20Vault)|Web Exploitation|250|Solved|No|
 |[What's My Name?](Forensics/What%27s%20My%20Name)|Forensics|250|Solved|No|
 |[absolutely relative](General%20Skills/absolutely%20relative)|General Skills|200|Solved|No|
-|[assembly-2](Reversing/assembly-2)|Reversing|250|Solved|No|
+|[assembly-2](Reversing/assembly-2)|Reversing|250|Solved|Partly|
 |[buffer overflow 2](Binary%20Exploitation/buffer%20overflow%202)|Binary Exploitation|250|Next up|No|
 |[caesar cipher 2](Cryptography/caesar%20cipher%202)|Cryptography|250|Solved|No|
 |got-2-learn-libc|Binary Exploitation|250|Unsolved|No|
