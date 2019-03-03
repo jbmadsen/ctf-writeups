@@ -53,7 +53,7 @@ Lets run the file trough [gdb](https://www.gnu.org/software/gdb/) instead,
 gdb be-quick-or-be-dead-1
 ```
 
-and have a look at the disassembly of the main function, and take it from there.
+and have a look at the disassembly of the main function, and take it from there:
 
 ```gdb
 (gdb) set disassembly-flavor intel

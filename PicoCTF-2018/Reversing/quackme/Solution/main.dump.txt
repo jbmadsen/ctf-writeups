@@ -1,0 +1,568 @@
+
+main:     file format elf32-i386
+
+Contents of section .interp:
+ 8048154 2f6c6962 2f6c642d 6c696e75 782e736f  /lib/ld-linux.so
+ 8048164 2e3200                               .2.             
+Contents of section .note.ABI-tag:
+ 8048168 04000000 10000000 01000000 474e5500  ............GNU.
+ 8048178 00000000 02000000 06000000 20000000  ............ ...
+Contents of section .note.gnu.build-id:
+ 8048188 04000000 14000000 03000000 474e5500  ............GNU.
+ 8048198 09dbd61b 7f2aa72b 7c04e2ab 78a4cc9c  .....*.+|...x...
+ 80481a8 437c4ac9                             C|J.            
+Contents of section .gnu.hash:
+ 80481ac 03000000 0b000000 01000000 05000000  ................
+ 80481bc 802b0020 0b000000 0c000000 00000000  .+. ............
+ 80481cc 291d8c1c ac4be3c0 67556110           )....K..gUa.    
+Contents of section .dynsym:
+ 80481d8 00000000 00000000 00000000 00000000  ................
+ 80481e8 57000000 00000000 00000000 12000000  W...............
+ 80481f8 24000000 00000000 00000000 12000000  $...............
+ 8048208 50000000 00000000 00000000 12000000  P...............
+ 8048218 1f000000 00000000 00000000 12000000  ................
+ 8048228 79000000 00000000 00000000 20000000  y........... ...
+ 8048238 1a000000 00000000 00000000 12000000  ................
+ 8048248 3b000000 00000000 00000000 12000000  ;...............
+ 8048258 67000000 00000000 00000000 12000000  g...............
+ 8048268 5f000000 00000000 00000000 12000000  _...............
+ 8048278 42000000 00000000 00000000 12000000  B...............
+ 8048288 49000000 44a00408 04000000 11001a00  I...D...........
+ 8048298 0b000000 ec870408 04000000 11001000  ................
+ 80482a8 35000000 40a00408 04000000 11001a00  5...@...........
+Contents of section .dynstr:
+ 80482b8 006c6962 632e736f 2e36005f 494f5f73  .libc.so.6._IO_s
+ 80482c8 7464696e 5f757365 64006578 69740070  tdin_used.exit.p
+ 80482d8 75747300 5f5f7374 61636b5f 63686b5f  uts.__stack_chk_
+ 80482e8 6661696c 00737464 696e0073 74726c65  fail.stdin.strle
+ 80482f8 6e006d65 6d736574 00737464 6f757400  n.memset.stdout.
+ 8048308 6d616c6c 6f630067 65746c69 6e650073  malloc.getline.s
+ 8048318 65747662 7566005f 5f6c6962 635f7374  etvbuf.__libc_st
+ 8048328 6172745f 6d61696e 005f5f67 6d6f6e5f  art_main.__gmon_
+ 8048338 73746172 745f5f00 474c4942 435f322e  start__.GLIBC_2.
+ 8048348 3400474c 4942435f 322e3000           4.GLIBC_2.0.    
+Contents of section .gnu.version:
+ 8048354 00000200 03000200 02000000 02000200  ................
+ 8048364 02000200 02000200 01000200           ............    
+Contents of section .gnu.version_r:
+ 8048370 01000200 01000000 10000000 00000000  ................
+ 8048380 1469690d 00000300 88000000 10000000  .ii.............
+ 8048390 1069690d 00000200 92000000 00000000  .ii.............
+Contents of section .rel.dyn:
+ 80483a0 fc9f0408 06050000 40a00408 050d0000  ........@.......
+ 80483b0 44a00408 050b0000                    D.......        
+Contents of section .rel.plt:
+ 80483b8 0ca00408 07010000 10a00408 07020000  ................
+ 80483c8 14a00408 07030000 18a00408 07040000  ................
+ 80483d8 1ca00408 07060000 20a00408 07070000  ........ .......
+ 80483e8 24a00408 07080000 28a00408 07090000  $.......(.......
+ 80483f8 2ca00408 070a0000                    ,.......        
+Contents of section .init:
+ 8048400 5383ec08 e8070100 0081c3f7 1b00008b  S...............
+ 8048410 83fcffff ff85c074 05e8b200 000083c4  .......t........
+ 8048420 085bc3                               .[.             
+Contents of section .plt:
+ 8048430 ff3504a0 0408ff25 08a00408 00000000  .5.....%........
+ 8048440 ff250ca0 04086800 000000e9 e0ffffff  .%....h.........
+ 8048450 ff2510a0 04086808 000000e9 d0ffffff  .%....h.........
+ 8048460 ff2514a0 04086810 000000e9 c0ffffff  .%....h.........
+ 8048470 ff2518a0 04086818 000000e9 b0ffffff  .%....h.........
+ 8048480 ff251ca0 04086820 000000e9 a0ffffff  .%....h ........
+ 8048490 ff2520a0 04086828 000000e9 90ffffff  .% ...h(........
+ 80484a0 ff2524a0 04086830 000000e9 80ffffff  .%$...h0........
+ 80484b0 ff2528a0 04086838 000000e9 70ffffff  .%(...h8....p...
+ 80484c0 ff252ca0 04086840 000000e9 60ffffff  .%,...h@....`...
+Contents of section .plt.got:
+ 80484d0 ff25fc9f 04086690                    .%....f.        
+Contents of section .text:
+ 80484e0 31ed5e89 e183e4f0 50545268 d0870408  1.^.....PTRh....
+ 80484f0 68708704 08515668 15870408 e89fffff  hp...QVh........
+ 8048500 fff46690 66906690 66906690 66906690  ..f.f.f.f.f.f.f.
+ 8048510 8b1c24c3 66906690 66906690 66906690  ..$.f.f.f.f.f.f.
+ 8048520 b83fa004 082d3ca0 040883f8 06761ab8  .?...-<......v..
+ 8048530 00000000 85c07411 5589e583 ec14683c  ......t.U.....h<
+ 8048540 a00408ff d083c410 c9f3c390 8d742600  .............t&.
+ 8048550 b83ca004 082d3ca0 0408c1f8 0289c2c1  .<...-<.........
+ 8048560 ea1f01d0 d1f8741b ba000000 0085d274  ......t........t
+ 8048570 125589e5 83ec1050 683ca004 08ffd283  .U.....Ph<......
+ 8048580 c410c9f3 c38d7426 008dbc27 00000000  ......t&...'....
+ 8048590 803d48a0 04080075 135589e5 83ec08e8  .=H....u.U......
+ 80485a0 7cffffff c60548a0 040801c9 f3c36690  |.....H.......f.
+ 80485b0 b8109f04 088b1085 d27505eb 938d7600  .........u....v.
+ 80485c0 ba000000 0085d274 f25589e5 83ec1450  .......t.U.....P
+ 80485d0 ffd283c4 10c9e975 ffffff55 89e583ec  .......u...U....
+ 80485e0 1865a114 00000089 45f431c0 c745e800  .e......E.1..E..
+ 80485f0 000000a1 40a00408 83ec0450 8d45ec50  ....@......P.E.P
+ 8048600 8d45e850 e837feff ff83c410 8945f083  .E.P.7.......E..
+ 8048610 7df0ff74 058b45e8 eb1583ec 0c687288  }..t..E......hr.
+ 8048620 0408e849 feffff83 c410b882 8804088b  ...I............
+ 8048630 55f46533 15140000 007405e8 10feffff  U.e3.....t......
+ 8048640 c9c35589 e583ec28 e88effff ff8945ec  ..U....(......E.
+ 8048650 83ec0cff 75ece835 feffff83 c4108945  ....u..5.......E
+ 8048660 f08b45f0 83c00183 ec0c50e8 f0fdffff  ..E.......P.....
+ 8048670 83c41089 45f4837d f400751a 83ec0c68  ....E..}..u....h
+ 8048680 84880408 e8e7fdff ff83c410 83ec0c6a  ...............j
+ 8048690 ffe8eafd ffff8b45 f083c001 83ec0450  .......E.......P
+ 80486a0 6a00ff75 f4e816fe ffff83c4 10c745e4  j..u..........E.
+ 80486b0 00000000 c745e800 000000eb 4e8b45e8  .....E......N.E.
+ 80486c0 05588804 080fb608 8b55e88b 45ec01d0  .X.......U..E...
+ 80486d0 0fb60031 c88845e3 8b1538a0 04088b45  ...1..E...8....E
+ 80486e0 e801d00f b6003a45 e3750483 45e40183  ......:E.u..E...
+ 80486f0 7de41975 1283ec0c 68ab8804 08e86efd  }..u....h.....n.
+ 8048700 ffff83c4 10eb0c83 45e8018b 45e83b45  ........E...E.;E
+ 8048710 f07caac9 c38d4c24 0483e4f0 ff71fc55  .|....L$.....q.U
+ 8048720 89e55183 ec04a144 a004086a 006a026a  ..Q....D...j.j.j
+ 8048730 0050e879 fdffff83 c41083ec 0c68f087  .P.y.........h..
+ 8048740 0408e829 fdffff83 c410e8f3 feffff83  ...)............
+ 8048750 ec0c68bb 880408e8 14fdffff 83c410b8  ..h.............
+ 8048760 00000000 8b4dfcc9 8d61fcc3 66906690  .....M...a..f.f.
+ 8048770 55575653 e897fdff ff81c387 18000083  UWVS............
+ 8048780 ec0c8b6c 24208db3 0cffffff e86ffcff  ...l$ .......o..
+ 8048790 ff8d8308 ffffff29 c6c1fe02 85f67425  .......)......t%
+ 80487a0 31ff8db6 00000000 83ec04ff 74242cff  1...........t$,.
+ 80487b0 74242c55 ff94bb08 ffffff83 c70183c4  t$,U............
+ 80487c0 1039f775 e383c40c 5b5e5f5d c38d7600  .9.u....[^_]..v.
+ 80487d0 f3c3                                 ..              
+Contents of section .fini:
+ 80487d4 5383ec08 e833fdff ff81c323 18000083  S....3.....#....
+ 80487e4 c4085bc3                             ..[.            
+Contents of section .rodata:
+ 80487e8 03000000 01000200 596f7520 68617665  ........You have
+ 80487f8 206e6f77 20656e74 65726564 20746865   now entered the
+ 8048808 20447563 6b205765 622c2061 6e642079   Duck Web, and y
+ 8048818 6f752772 6520696e 20666f72 20612068  ou're in for a h
+ 8048828 6f6e6b69 6e272067 6f6f6420 74696d65  onkin' good time
+ 8048838 2e0a4361 6e20796f 75206669 67757265  ..Can you figure
+ 8048848 206f7574 206d7920 74726963 6b3f0000   out my trick?..
+ 8048858 2906164f 2b35301e 511b5b14 4b085d2b  )..O+50.Q.[.K.]+
+ 8048868 52170157 16115c07 5d004e6f 206c696e  R..W..\.].No lin
+ 8048878 65207265 61642e2e 2e000000 6d616c6c  e read......mall
+ 8048888 6f632829 20726574 75726e65 64204e55  oc() returned NU
+ 8048898 4c4c2e20 4f757420 6f66204d 656d6f72  LL. Out of Memor
+ 80488a8 790a0059 6f752061 72652077 696e6e65  y..You are winne
+ 80488b8 72210054 68617427 7320616c 6c20666f  r!.That's all fo
+ 80488c8 6c6b732e 00                          lks..           
+Contents of section .eh_frame_hdr:
+ 80488d0 011b033b 38000000 06000000 60fbffff  ...;8.......`...
+ 80488e0 54000000 0bfdffff 78000000 72fdffff  T.......x...r...
+ 80488f0 98000000 45feffff b8000000 a0feffff  ....E...........
+ 8048900 e4000000 00ffffff 30010000           ........0...    
+Contents of section .eh_frame:
+ 804890c 14000000 00000000 017a5200 017c0801  .........zR..|..
+ 804891c 1b0c0404 88010000 20000000 1c000000  ........ .......
+ 804892c 04fbffff a0000000 000e0846 0e0c4a0f  ...........F..J.
+ 804893c 0b740478 003f1a3b 2a322422 1c000000  .t.x.?.;*2$"....
+ 804894c 40000000 8bfcffff 67000000 00410e08  @.......g....A..
+ 804895c 8502420d 050263c5 0c040400 1c000000  ..B...c.........
+ 804896c 60000000 d2fcffff d3000000 00410e08  `............A..
+ 804897c 8502420d 0502cfc5 0c040400 28000000  ..B.........(...
+ 804898c 80000000 85fdffff 57000000 00440c01  ........W....D..
+ 804899c 00471005 02750043 0f03757c 0602440c  .G...u.C..u|..D.
+ 80489ac 010041c5 430c0404 48000000 ac000000  ..A.C...H.......
+ 80489bc b4fdffff 5d000000 00410e08 8502410e  ....]....A....A.
+ 80489cc 0c870341 0e108604 410e1483 054e0e20  ...A....A....N. 
+ 80489dc 690e2444 0e28440e 2c410e30 4d0e2047  i.$D.(D.,A.0M. G
+ 80489ec 0e1441c3 0e1041c6 0e0c41c7 0e0841c5  ..A...A...A...A.
+ 80489fc 0e040000 10000000 f8000000 c8fdffff  ................
+ 8048a0c 02000000 00000000 00000000           ............    
+Contents of section .init_array:
+ 8049f08 b0850408                             ....            
+Contents of section .fini_array:
+ 8049f0c 90850408                             ....            
+Contents of section .jcr:
+ 8049f10 00000000                             ....            
+Contents of section .dynamic:
+ 8049f14 01000000 01000000 0c000000 00840408  ................
+ 8049f24 0d000000 d4870408 19000000 089f0408  ................
+ 8049f34 1b000000 04000000 1a000000 0c9f0408  ................
+ 8049f44 1c000000 04000000 f5feff6f ac810408  ...........o....
+ 8049f54 05000000 b8820408 06000000 d8810408  ................
+ 8049f64 0a000000 9c000000 0b000000 10000000  ................
+ 8049f74 15000000 00000000 03000000 00a00408  ................
+ 8049f84 02000000 48000000 14000000 11000000  ....H...........
+ 8049f94 17000000 b8830408 11000000 a0830408  ................
+ 8049fa4 12000000 18000000 13000000 08000000  ................
+ 8049fb4 feffff6f 70830408 ffffff6f 01000000  ...op......o....
+ 8049fc4 f0ffff6f 54830408 00000000 00000000  ...oT...........
+ 8049fd4 00000000 00000000 00000000 00000000  ................
+ 8049fe4 00000000 00000000 00000000 00000000  ................
+ 8049ff4 00000000 00000000                    ........        
+Contents of section .got:
+ 8049ffc 00000000                             ....            
+Contents of section .got.plt:
+ 804a000 149f0408 00000000 00000000 46840408  ............F...
+ 804a010 56840408 66840408 76840408 86840408  V...f...v.......
+ 804a020 96840408 a6840408 b6840408 c6840408  ................
+Contents of section .data:
+ 804a030 00000000 00000000 f0870408           ............    
+Contents of section .comment:
+ 0000 4743433a 20285562 756e7475 20352e34  GCC: (Ubuntu 5.4
+ 0010 2e302d36 7562756e 7475317e 31362e30  .0-6ubuntu1~16.0
+ 0020 342e3130 2920352e 342e3020 32303136  4.10) 5.4.0 2016
+ 0030 30363039 00                          0609.           
+
+Disassembly of section .init:
+
+08048400 <_init>:
+ 8048400:	push   ebx
+ 8048401:	sub    esp,0x8
+ 8048404:	call   8048510 <__x86.get_pc_thunk.bx>
+ 8048409:	add    ebx,0x1bf7
+ 804840f:	mov    eax,DWORD PTR [ebx-0x4]
+ 8048415:	test   eax,eax
+ 8048417:	je     804841e <_init+0x1e>
+ 8048419:	call   80484d0 <__gmon_start__@plt>
+ 804841e:	add    esp,0x8
+ 8048421:	pop    ebx
+ 8048422:	ret    
+
+Disassembly of section .plt:
+
+08048430 <.plt>:
+ 8048430:	push   DWORD PTR ds:0x804a004
+ 8048436:	jmp    DWORD PTR ds:0x804a008
+ 804843c:	add    BYTE PTR [eax],al
+	...
+
+08048440 <getline@plt>:
+ 8048440:	jmp    DWORD PTR ds:0x804a00c
+ 8048446:	push   0x0
+ 804844b:	jmp    8048430 <.plt>
+
+08048450 <__stack_chk_fail@plt>:
+ 8048450:	jmp    DWORD PTR ds:0x804a010
+ 8048456:	push   0x8
+ 804845b:	jmp    8048430 <.plt>
+
+08048460 <malloc@plt>:
+ 8048460:	jmp    DWORD PTR ds:0x804a014
+ 8048466:	push   0x10
+ 804846b:	jmp    8048430 <.plt>
+
+08048470 <puts@plt>:
+ 8048470:	jmp    DWORD PTR ds:0x804a018
+ 8048476:	push   0x18
+ 804847b:	jmp    8048430 <.plt>
+
+08048480 <exit@plt>:
+ 8048480:	jmp    DWORD PTR ds:0x804a01c
+ 8048486:	push   0x20
+ 804848b:	jmp    8048430 <.plt>
+
+08048490 <strlen@plt>:
+ 8048490:	jmp    DWORD PTR ds:0x804a020
+ 8048496:	push   0x28
+ 804849b:	jmp    8048430 <.plt>
+
+080484a0 <__libc_start_main@plt>:
+ 80484a0:	jmp    DWORD PTR ds:0x804a024
+ 80484a6:	push   0x30
+ 80484ab:	jmp    8048430 <.plt>
+
+080484b0 <setvbuf@plt>:
+ 80484b0:	jmp    DWORD PTR ds:0x804a028
+ 80484b6:	push   0x38
+ 80484bb:	jmp    8048430 <.plt>
+
+080484c0 <memset@plt>:
+ 80484c0:	jmp    DWORD PTR ds:0x804a02c
+ 80484c6:	push   0x40
+ 80484cb:	jmp    8048430 <.plt>
+
+Disassembly of section .plt.got:
+
+080484d0 <__gmon_start__@plt>:
+ 80484d0:	jmp    DWORD PTR ds:0x8049ffc
+ 80484d6:	xchg   ax,ax
+
+Disassembly of section .text:
+
+080484e0 <_start>:
+ 80484e0:	xor    ebp,ebp
+ 80484e2:	pop    esi
+ 80484e3:	mov    ecx,esp
+ 80484e5:	and    esp,0xfffffff0
+ 80484e8:	push   eax
+ 80484e9:	push   esp
+ 80484ea:	push   edx
+ 80484eb:	push   0x80487d0
+ 80484f0:	push   0x8048770
+ 80484f5:	push   ecx
+ 80484f6:	push   esi
+ 80484f7:	push   0x8048715
+ 80484fc:	call   80484a0 <__libc_start_main@plt>
+ 8048501:	hlt    
+ 8048502:	xchg   ax,ax
+ 8048504:	xchg   ax,ax
+ 8048506:	xchg   ax,ax
+ 8048508:	xchg   ax,ax
+ 804850a:	xchg   ax,ax
+ 804850c:	xchg   ax,ax
+ 804850e:	xchg   ax,ax
+
+08048510 <__x86.get_pc_thunk.bx>:
+ 8048510:	mov    ebx,DWORD PTR [esp]
+ 8048513:	ret    
+ 8048514:	xchg   ax,ax
+ 8048516:	xchg   ax,ax
+ 8048518:	xchg   ax,ax
+ 804851a:	xchg   ax,ax
+ 804851c:	xchg   ax,ax
+ 804851e:	xchg   ax,ax
+
+08048520 <deregister_tm_clones>:
+ 8048520:	mov    eax,0x804a03f
+ 8048525:	sub    eax,0x804a03c
+ 804852a:	cmp    eax,0x6
+ 804852d:	jbe    8048549 <deregister_tm_clones+0x29>
+ 804852f:	mov    eax,0x0
+ 8048534:	test   eax,eax
+ 8048536:	je     8048549 <deregister_tm_clones+0x29>
+ 8048538:	push   ebp
+ 8048539:	mov    ebp,esp
+ 804853b:	sub    esp,0x14
+ 804853e:	push   0x804a03c
+ 8048543:	call   eax
+ 8048545:	add    esp,0x10
+ 8048548:	leave  
+ 8048549:	repz ret 
+ 804854b:	nop
+ 804854c:	lea    esi,[esi+eiz*1+0x0]
+
+08048550 <register_tm_clones>:
+ 8048550:	mov    eax,0x804a03c
+ 8048555:	sub    eax,0x804a03c
+ 804855a:	sar    eax,0x2
+ 804855d:	mov    edx,eax
+ 804855f:	shr    edx,0x1f
+ 8048562:	add    eax,edx
+ 8048564:	sar    eax,1
+ 8048566:	je     8048583 <register_tm_clones+0x33>
+ 8048568:	mov    edx,0x0
+ 804856d:	test   edx,edx
+ 804856f:	je     8048583 <register_tm_clones+0x33>
+ 8048571:	push   ebp
+ 8048572:	mov    ebp,esp
+ 8048574:	sub    esp,0x10
+ 8048577:	push   eax
+ 8048578:	push   0x804a03c
+ 804857d:	call   edx
+ 804857f:	add    esp,0x10
+ 8048582:	leave  
+ 8048583:	repz ret 
+ 8048585:	lea    esi,[esi+eiz*1+0x0]
+ 8048589:	lea    edi,[edi+eiz*1+0x0]
+
+08048590 <__do_global_dtors_aux>:
+ 8048590:	cmp    BYTE PTR ds:0x804a048,0x0
+ 8048597:	jne    80485ac <__do_global_dtors_aux+0x1c>
+ 8048599:	push   ebp
+ 804859a:	mov    ebp,esp
+ 804859c:	sub    esp,0x8
+ 804859f:	call   8048520 <deregister_tm_clones>
+ 80485a4:	mov    BYTE PTR ds:0x804a048,0x1
+ 80485ab:	leave  
+ 80485ac:	repz ret 
+ 80485ae:	xchg   ax,ax
+
+080485b0 <frame_dummy>:
+ 80485b0:	mov    eax,0x8049f10
+ 80485b5:	mov    edx,DWORD PTR [eax]
+ 80485b7:	test   edx,edx
+ 80485b9:	jne    80485c0 <frame_dummy+0x10>
+ 80485bb:	jmp    8048550 <register_tm_clones>
+ 80485bd:	lea    esi,[esi+0x0]
+ 80485c0:	mov    edx,0x0
+ 80485c5:	test   edx,edx
+ 80485c7:	je     80485bb <frame_dummy+0xb>
+ 80485c9:	push   ebp
+ 80485ca:	mov    ebp,esp
+ 80485cc:	sub    esp,0x14
+ 80485cf:	push   eax
+ 80485d0:	call   edx
+ 80485d2:	add    esp,0x10
+ 80485d5:	leave  
+ 80485d6:	jmp    8048550 <register_tm_clones>
+
+080485db <read_input>:
+ 80485db:	push   ebp
+ 80485dc:	mov    ebp,esp
+ 80485de:	sub    esp,0x18
+ 80485e1:	mov    eax,gs:0x14
+ 80485e7:	mov    DWORD PTR [ebp-0xc],eax
+ 80485ea:	xor    eax,eax
+ 80485ec:	mov    DWORD PTR [ebp-0x18],0x0
+ 80485f3:	mov    eax,ds:0x804a040
+ 80485f8:	sub    esp,0x4
+ 80485fb:	push   eax
+ 80485fc:	lea    eax,[ebp-0x14]
+ 80485ff:	push   eax
+ 8048600:	lea    eax,[ebp-0x18]
+ 8048603:	push   eax
+ 8048604:	call   8048440 <getline@plt>
+ 8048609:	add    esp,0x10
+ 804860c:	mov    DWORD PTR [ebp-0x10],eax
+ 804860f:	cmp    DWORD PTR [ebp-0x10],0xffffffff
+ 8048613:	je     804861a <read_input+0x3f>
+ 8048615:	mov    eax,DWORD PTR [ebp-0x18]
+ 8048618:	jmp    804862f <read_input+0x54>
+ 804861a:	sub    esp,0xc
+ 804861d:	push   0x8048872
+ 8048622:	call   8048470 <puts@plt>
+ 8048627:	add    esp,0x10
+ 804862a:	mov    eax,0x8048882
+ 804862f:	mov    edx,DWORD PTR [ebp-0xc]
+ 8048632:	xor    edx,DWORD PTR gs:0x14
+ 8048639:	je     8048640 <read_input+0x65>
+ 804863b:	call   8048450 <__stack_chk_fail@plt>
+ 8048640:	leave  
+ 8048641:	ret    
+
+08048642 <do_magic>:
+ 8048642:	push   ebp
+ 8048643:	mov    ebp,esp
+ 8048645:	sub    esp,0x28
+ 8048648:	call   80485db <read_input>
+ 804864d:	mov    DWORD PTR [ebp-0x14],eax
+ 8048650:	sub    esp,0xc
+ 8048653:	push   DWORD PTR [ebp-0x14]
+ 8048656:	call   8048490 <strlen@plt>
+ 804865b:	add    esp,0x10
+ 804865e:	mov    DWORD PTR [ebp-0x10],eax
+ 8048661:	mov    eax,DWORD PTR [ebp-0x10]
+ 8048664:	add    eax,0x1
+ 8048667:	sub    esp,0xc
+ 804866a:	push   eax
+ 804866b:	call   8048460 <malloc@plt>
+ 8048670:	add    esp,0x10
+ 8048673:	mov    DWORD PTR [ebp-0xc],eax
+ 8048676:	cmp    DWORD PTR [ebp-0xc],0x0
+ 804867a:	jne    8048696 <do_magic+0x54>
+ 804867c:	sub    esp,0xc
+ 804867f:	push   0x8048884
+ 8048684:	call   8048470 <puts@plt>
+ 8048689:	add    esp,0x10
+ 804868c:	sub    esp,0xc
+ 804868f:	push   0xffffffff
+ 8048691:	call   8048480 <exit@plt>
+ 8048696:	mov    eax,DWORD PTR [ebp-0x10]
+ 8048699:	add    eax,0x1
+ 804869c:	sub    esp,0x4
+ 804869f:	push   eax
+ 80486a0:	push   0x0
+ 80486a2:	push   DWORD PTR [ebp-0xc]
+ 80486a5:	call   80484c0 <memset@plt>
+ 80486aa:	add    esp,0x10
+ 80486ad:	mov    DWORD PTR [ebp-0x1c],0x0
+ 80486b4:	mov    DWORD PTR [ebp-0x18],0x0
+ 80486bb:	jmp    804870b <do_magic+0xc9>
+ 80486bd:	mov    eax,DWORD PTR [ebp-0x18]
+ 80486c0:	add    eax,0x8048858
+ 80486c5:	movzx  ecx,BYTE PTR [eax]
+ 80486c8:	mov    edx,DWORD PTR [ebp-0x18]
+ 80486cb:	mov    eax,DWORD PTR [ebp-0x14]
+ 80486ce:	add    eax,edx
+ 80486d0:	movzx  eax,BYTE PTR [eax]
+ 80486d3:	xor    eax,ecx
+ 80486d5:	mov    BYTE PTR [ebp-0x1d],al
+ 80486d8:	mov    edx,DWORD PTR ds:0x804a038
+ 80486de:	mov    eax,DWORD PTR [ebp-0x18]
+ 80486e1:	add    eax,edx
+ 80486e3:	movzx  eax,BYTE PTR [eax]
+ 80486e6:	cmp    al,BYTE PTR [ebp-0x1d]
+ 80486e9:	jne    80486ef <do_magic+0xad>
+ 80486eb:	add    DWORD PTR [ebp-0x1c],0x1
+ 80486ef:	cmp    DWORD PTR [ebp-0x1c],0x19
+ 80486f3:	jne    8048707 <do_magic+0xc5>
+ 80486f5:	sub    esp,0xc
+ 80486f8:	push   0x80488ab
+ 80486fd:	call   8048470 <puts@plt>
+ 8048702:	add    esp,0x10
+ 8048705:	jmp    8048713 <do_magic+0xd1>
+ 8048707:	add    DWORD PTR [ebp-0x18],0x1
+ 804870b:	mov    eax,DWORD PTR [ebp-0x18]
+ 804870e:	cmp    eax,DWORD PTR [ebp-0x10]
+ 8048711:	jl     80486bd <do_magic+0x7b>
+ 8048713:	leave  
+ 8048714:	ret    
+
+08048715 <main>:
+ 8048715:	lea    ecx,[esp+0x4]
+ 8048719:	and    esp,0xfffffff0
+ 804871c:	push   DWORD PTR [ecx-0x4]
+ 804871f:	push   ebp
+ 8048720:	mov    ebp,esp
+ 8048722:	push   ecx
+ 8048723:	sub    esp,0x4
+ 8048726:	mov    eax,ds:0x804a044
+ 804872b:	push   0x0
+ 804872d:	push   0x2
+ 804872f:	push   0x0
+ 8048731:	push   eax
+ 8048732:	call   80484b0 <setvbuf@plt>
+ 8048737:	add    esp,0x10
+ 804873a:	sub    esp,0xc
+ 804873d:	push   0x80487f0
+ 8048742:	call   8048470 <puts@plt>
+ 8048747:	add    esp,0x10
+ 804874a:	call   8048642 <do_magic>
+ 804874f:	sub    esp,0xc
+ 8048752:	push   0x80488bb
+ 8048757:	call   8048470 <puts@plt>
+ 804875c:	add    esp,0x10
+ 804875f:	mov    eax,0x0
+ 8048764:	mov    ecx,DWORD PTR [ebp-0x4]
+ 8048767:	leave  
+ 8048768:	lea    esp,[ecx-0x4]
+ 804876b:	ret    
+ 804876c:	xchg   ax,ax
+ 804876e:	xchg   ax,ax
+
+08048770 <__libc_csu_init>:
+ 8048770:	push   ebp
+ 8048771:	push   edi
+ 8048772:	push   esi
+ 8048773:	push   ebx
+ 8048774:	call   8048510 <__x86.get_pc_thunk.bx>
+ 8048779:	add    ebx,0x1887
+ 804877f:	sub    esp,0xc
+ 8048782:	mov    ebp,DWORD PTR [esp+0x20]
+ 8048786:	lea    esi,[ebx-0xf4]
+ 804878c:	call   8048400 <_init>
+ 8048791:	lea    eax,[ebx-0xf8]
+ 8048797:	sub    esi,eax
+ 8048799:	sar    esi,0x2
+ 804879c:	test   esi,esi
+ 804879e:	je     80487c5 <__libc_csu_init+0x55>
+ 80487a0:	xor    edi,edi
+ 80487a2:	lea    esi,[esi+0x0]
+ 80487a8:	sub    esp,0x4
+ 80487ab:	push   DWORD PTR [esp+0x2c]
+ 80487af:	push   DWORD PTR [esp+0x2c]
+ 80487b3:	push   ebp
+ 80487b4:	call   DWORD PTR [ebx+edi*4-0xf8]
+ 80487bb:	add    edi,0x1
+ 80487be:	add    esp,0x10
+ 80487c1:	cmp    edi,esi
+ 80487c3:	jne    80487a8 <__libc_csu_init+0x38>
+ 80487c5:	add    esp,0xc
+ 80487c8:	pop    ebx
+ 80487c9:	pop    esi
+ 80487ca:	pop    edi
+ 80487cb:	pop    ebp
+ 80487cc:	ret    
+ 80487cd:	lea    esi,[esi+0x0]
+
+080487d0 <__libc_csu_fini>:
+ 80487d0:	repz ret 
+
+Disassembly of section .fini:
+
+080487d4 <_fini>:
+ 80487d4:	push   ebx
+ 80487d5:	sub    esp,0x8
+ 80487d8:	call   8048510 <__x86.get_pc_thunk.bx>
+ 80487dd:	add    ebx,0x1823
+ 80487e3:	add    esp,0x8
+ 80487e6:	pop    ebx
+ 80487e7:	ret    

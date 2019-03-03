@@ -2,6 +2,8 @@
 
 TODO: What is the purpose of Reversing challenges?
 
+https://i.stack.imgur.com/xkGtg.jpg
+
 ## Challenges
 
 |Name|Points|Status|Write up
@@ -11,7 +13,7 @@ TODO: What is the purpose of Reversing challenges?
 |[assembly-0](assembly-0)|150|Solved|Partly|
 |[assembly-1](assembly-1)|200|Solved|Partly|
 |[be-quick-or-be-dead-1](be-quick-or-be-dead-1)|200|Solved|Partly|
-|[quackme](quackme)|200|Solved|No|
+|[quackme](quackme)|200|Solved|Partly|
 |[assembly-2](assembly-2)|250|Solved|Partly|
 |be-quick-or-be-dead-2|275|Unsolved|No|
 |quackme up|350|Unsolved|No|

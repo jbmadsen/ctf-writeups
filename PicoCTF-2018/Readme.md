@@ -68,7 +68,7 @@ Score: 8560
 |[hertz 2](Cryptography/hertz%202)|Cryptography|200|Solved|No|
 |[leak-me](Binary%20Exploitation/leak-me)|Binary Exploitation|200|Solved|No|
 |[now you don't](Forensics/now%20you%20don%27t)|Forensics|200|Solved|No|
-|[quackme](Reversing/quackme)|Reversing|200|Solved|No|
+|[quackme](Reversing/quackme)|Reversing|200|Solved|Partly|
 |[shellcode](Binary%20Exploitation/shellcode)|Binary Exploitation|200|Solved|No|
 |[what base is this?](General%20Skills/what%20base%20is%20this)|General Skills|200|Solved|No|
 |[you can't see me](General%20Skills/you%20can%27t%20see%20me)|General Skills|200|Solved|No|
@@ -91,7 +91,7 @@ Score: 8560
 |learn gdb|General Skills|300|Unsolved|No|
 |Flaskcards|Web Exploitation|350|Unsolved|No|
 |got-shell?|Binary Exploitation|350|Unsolved|No|
-|quackme up|Reversing|350|Unsolved|No|
+|quackme|Reversing|350|Unsolved|No|
 |Malware Shops|Forensics|400|Unsolved|No|
 |Radix's Terminal|Reversing|400|Unsolved|No|
 |assembly-3|Reversing|400|Unsolved|No| 
