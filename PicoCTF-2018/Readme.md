@@ -37,7 +37,7 @@ Score: 8560
 |[Crypto Warmup 2](Cryptography/Crypto%20Warmup%202)|Cryptography|75|Solved|Yes|
 |[grep 1](General%20Skills/grep%201)|General Skills|75|Solved|No|
 |[net cat](General%20Skills/net%20cat)|General Skills|75|Solved|No|
-|[HEEEEEEERE'S Johnny!](Cryptography/HEEEEEEERE%27S%20Johnny!)|Cryptography|100|Solved|No|
+|[HEEEEEEERE'S Johnny!](Cryptography/HEEEEEEERE%27S%20Johnny!)|Cryptography|100|Solved|Partly|
 |[strings](General%20Skills/strings)|General Skills|100|Solved|No|
 |[pipe](General%20Skills/pipe)|General Skills|110|Solved|No|
 |[Inspect Me](Web%20Exploitation/Inspect%20Me)|Web Exploitation|125|Solved|No|
