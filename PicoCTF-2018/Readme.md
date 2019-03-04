@@ -51,7 +51,7 @@ Score: 8560
 |[admin panel](Forensics/admin%20panel)|Forensics|150|Solved|No|
 |[assembly-0](Reversing/assembly-0)|Reversing|150|Solved|Partly|
 |[buffer overflow 0](Binary%20Exploitation/buffer%20overflow%200)|Binary Exploitation|150|Solved|No|
-|[caesar cipher 1](Cryptography/caesar%20cipher%201)|Cryptography|150|Solved|No|
+|[caesar cipher 1](Cryptography/caesar%20cipher%201)|Cryptography|150|Solved|Yes|
 |[environ](General%20Skills/environ)|General Skills|150|Solved|No|
 |[hertz](Cryptography/hertz)|Cryptography|150|Solved|No|
 |[hex editor](Forensics/hex%20editor)|Forensics|150|Solved|No|
