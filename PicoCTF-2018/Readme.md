@@ -34,7 +34,7 @@ Score: 8560
 |[Reversing Warmup 1](Reversing/Reversing%20Warmup%201)|Reversing|50|Solved|Yes|
 |[Reversing Warmup 2](Reversing/Reversing%20Warmup%202)|Reversing|50|Solved|Yes|
 |[Crypto Warmup 1](Cryptography/Crypto%20Warmup%201)|Cryptography|75|Solved|Yes|
-|[Crypto Warmup 2](Cryptography/Crypto%20Warmup%202)|Cryptography|75|Solved|Next up|
+|[Crypto Warmup 2](Cryptography/Crypto%20Warmup%202)|Cryptography|75|Solved|Yes|
 |[grep 1](General%20Skills/grep%201)|General Skills|75|Solved|No|
 |[net cat](General%20Skills/net%20cat)|General Skills|75|Solved|No|
 |[HEEEEEEERE'S Johnny!](Cryptography/HEEEEEEERE%27S%20Johnny!)|Cryptography|100|Solved|No|

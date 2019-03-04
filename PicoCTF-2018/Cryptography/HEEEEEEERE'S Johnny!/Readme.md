@@ -19,7 +19,9 @@
 
 TODO:
 
-- Explain John the ripper reference & tool
+- Explain password and shadow files
+
+- Explain John the ripper tool
 
 - Explain RockYou password list / dictionary attack
 

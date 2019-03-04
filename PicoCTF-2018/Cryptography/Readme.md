@@ -7,7 +7,7 @@ TODO
 |Name|Points|Status|Write up
 |-|-|-|-|
 |[Crypto Warmup 1](Crypto%20Warmup%201)|75|Solved|Yes|
-|[Crypto Warmup 2](Crypto%20Warmup%202)|75|Solved|Next up|
+|[Crypto Warmup 2](Crypto%20Warmup%202)|75|Solved|Yes|
 |[HEEEEEEERE'S Johnny!](HEEEEEEERE%27S%20Johnny!)|100|Solved|No|
 |[caesar cipher 1](caesar%20cipher%201)|150|Solved|No|
 |[hertz](hertz)|150|Solved|No|
