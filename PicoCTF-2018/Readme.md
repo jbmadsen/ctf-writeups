@@ -63,7 +63,7 @@ Score: 8560
 |[Truly an Artist](Forensics/Truly%20an%20Artist)|Forensics|200|Solved|No|
 |[assembly-1](Reversing/assembly-1)|Reversing|200|Solved|Partly|
 |[be-quick-or-be-dead-1](Reversing/be-quick-or-be-dead-1)|Reversing|200|Solved|Partly|
-|[blaise's cipher](Cryptography/blaise%27s%20cipher)|Cryptography|200|Solved|No|
+|[blaise's cipher](Cryptography/blaise%27s%20cipher)|Cryptography|200|Solved|Partly|
 |[buffer overflow 1](Binary%20Exploitation/buffer%20overflow%201)|Binary Exploitation|200|Solved|No|
 |[hertz 2](Cryptography/hertz%202)|Cryptography|200|Solved|No|
 |[leak-me](Binary%20Exploitation/leak-me)|Binary Exploitation|200|Solved|No|
