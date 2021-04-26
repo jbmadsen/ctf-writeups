@@ -1,0 +1,181 @@
+NC3 - Pixeleret
+Den anerkendte kubistiske kunster J. Tüddel er blevet bestjålet. Et udkast til hans næste mesterværk "Dådyr i knibe" er blevet stjålet. 
+Heldigvis har Tüddel gemt udkastet på en kringlet måde, således at gerningsmanden ikke bare ville kunne sælge det videre. 
+5 dage efter tyveriet bliver den storkriminelle K. Pløs anholdt mistænkt for tyveriet. 
+I dennes lomme bliver en USB-stick indeholdende en fil fundet. Indeholder denne fil virkelig Tüddels firkantede mesterværk?
+
+Download filen:
+http://nc3ctffqqn5ozfjy.onion/fe72db02107a99ae575579b12cc6667f/one.jpg
+md5sum: 84edddbb575bcb148cf6321c37a1e8dd 
+
+--------------------------------
+Stage 1 - one.jpg:
+
+As it shows when looking through the file there are some interesting
+elements at the end of the picture (PK), so I used "binwalk" to search and
+extract as I suspected a Zip file being hidden.
+
+~/# binwalk -e one.jpg
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             JPEG image data, JFIF standard 1.01
+310414        0x4BC8E         Zip archive data, at least v2.0 to extract, compressed size: 53321, uncompressed size: 20482048, name: igen
+363871        0x58D5F         End of Zip archive
+
+when extracted there will be two files a zip file and the extracted file
+equal to the content of the zip file "igen", don't know if it is binwalk
+that just keeps extracting or a small "glitch in the matrix" :)
+
+~/# ls -lah  *
+-rw-r--r-- 1 root root 53K Dec  4 14:29 4BC8E.zip
+-rw-rw-r-- 1 root root 20M Nov  1 19:46 igen
+
+~/# md5sum *
+d089c39b5320d5b48c71d4dc3c9a2a77  4BC8E.zip
+9f364ef473de4aefcbc70302092dcea8  igen
+
+~/# file igen
+igen: SGI XFS filesystem data (blksz 4096, inosz 512, v2 dirs)
+
+I just renamed the file to recall where it came from :)
+~/# mv igen stage2.raw
+
+--------------------------------
+Stage 2 - stage2.raw:
+
+As we realised with the file command it was shown that the file is a file
+system: "SGI XFS filesystem data (blksz 4096, inosz 512, v2 dirs)"
+
+Create the folder stage2 and mount the stage file to this folder:
+~/# sudo mkdir /media/stage2 && sudo mount -t xfs stage2.raw /media/stage2
+
+~/# cd /media/stage2 && ls -la
+
+-rw-rw-r-- 1 root root  27K Nov  1 19:46 og
+
+~/# md5sum *
+2201fb384d3a705076ca5e026b1845cd  og
+
+~/# file og
+
+og: Zip archive data, at least v2.0 to extract
+
+~/# mv og stage3.zip
+
+~/# unzip stage3.zip -d /tmp/
+Archive:  stage3.zip
+  inflating: /tmp/og
+
+~/# file /tmp/og
+/tmp/og: Macintosh HFS Extended version 4 data last mounted by: 'H+Lx', created: Wed Nov  1 19:46:47 2017, last modified: Wed Nov  1 18:46:48 2017, 
+last checked: Wed Nov  1 18:46:47 2017, block size: 4096, number of blocks: 5000, free blocks: 4912
+
+~/# mv /tmp/og /tmp/stage3.raw
+~/# md5sum /tmp/stage3.raw
+66bf6260655518f76ada0803aaf1481c  /tmp/stage3.raw
+
+--------------------------------
+Stage 3 - stage3.raw:
+
+The stage3.raw file is a " Macintosh HFS Extended version 4" filesystem, so
+we need to mount this, simular to the way we did in stage 2.
+
+~/# sudo mkdir /media/stage3 && sudo mount -t hfsplus -o loop /tmp/stage3.raw /media/stage3
+
+Now lets look into that folder:
+~/# cd /media/stage3 && ls -la && md5sum *
+total 32
+drwxr-xr-x  1 root root        4 Nov  1 19:46 .
+drwxr-xr-x 10 root root     4096 Dec  4 14:54 ..
+-rw-rw-r--  1 root root    26164 Nov  1 19:46 igen
+e95f6b9d64fcd4c5fdb4af406e5a275a  igen
+
+~/# file igen
+igen: Zip archive data, at least v2.0 to extract
+
+~/# mv igen stage4.zip
+~/# unzip stage4.zip -d /tmp/
+Archive:  stage4.zip
+  inflating: /tmp/og
+
+~/# file /tmp/og
+/tmp/og: Minix filesystem, V1, 30 char names, 8270 zones
+
+~/# mv /tmp/og /tmp/stage4.raw
+~/# md5sum /tmp/stage4.raw
+779a4a4ef92d682a2040e0248bff9791  /tmp/stage4.raw
+
+--------------------------------
+Stage 4 - stage4.raw:
+
+Now we are in the loop and know the process right, same shit different
+day(Filesystem)
+
+~/# sudo mkdir /media/stage4 && sudo mount -t minix -o loop /tmp/stage4.raw /media/stage4
+
+Now lets look into that folder:
+~/# cd /media/stage4 && ls -la && md5sum *
+total 14
+drwxr-xr-x  2 rand  232   96 Nov  1 19:46 .
+drwxr-xr-x 11 root root 4096 Dec  4 16:00 ..
+-rw-rw-r--  1 root root 8192 Nov  1 19:46 igen
+12e53fb3fbec17c5f8d7d7404d5bfd47  igen
+
+~/# file /tmp/igen
+igen: Linux Compressed ROM File System data, little endian size 8192 version #2 sorted_dirs CRC 0xa975a04d, edition 0, 67 blocks, 3 files
+
+~/# mv igen stage5.raw
+
+--------------------------------
+Stage 5 - stage5.raw:
+
+~/# binwalk stage5.raw
+
+DECIMAL       HEXADECIMAL     DESCRIPTION
+--------------------------------------------------------------------------------
+0             0x0             CramFS filesystem, little endian, size: 8192 version 2 sorted_dirs CRC 0xA975A04D, edition 0, 67 blocks, 3 files
+
+~/# /sbin/fsck.cramfs --extract=/media/stage5 stage5.raw
+~/# ls -la /media/stage5 && md5sum /media/stage5/*
+total 276
+drwxrwxr-x  2 rand  232   4096 Dec  4 16:09 .
+drwxr-xr-x 12 root root   4096 Dec  4 16:09 ..
+-rw-rw-r--  1 root root 269100 Jan  1  1970 secret
+-rw-rw-r--  1 root root     40 Jan  1  1970 story
+923e38db0fbbe10aa8172d7520ec809b  /media/stage5/secret
+0ceaef5c787e3ec0efa94a3d3967fea5  /media/stage5/story
+
+~/# cat story
+300 x 300 spartans er over 9000 pixels!
+
+~/# cat /media/stage5/secret | more
+x34x34x34x34x34x34x34x34x34x34x34x34x34x34x34x34x34x34x34x34x34x34 [..TRUNCATED..]
+
+looking at the file secret I'm guessing we have some hex code here so we
+need to see it, I also in the code replaced any none-printable characters
+with "a" to avoid weird output.
+
+I know this is not the best way BUT it worked, below were my small perl
+script
+
+
+#!/usr/bin/perl
+
+use warnings;
+use strict;
+use File::Slurp;
+my $hexdump = read_file('secret.org');
+
+$hexdump =~ s/x//gs; # Convert to hex readable
+$hexdump =~ s/([a-fA-F0-9][a-fA-F0-9])/chr(hex($1))/eg; # Convert to data
+$hexdump =~ s/[^[:print:]]/a/g; # Replace none-printable with a
+$hexdump =~ s/(.{1,300})/$1\n/gs; # as the story said "300 x 300 spartans"
+print $hexdump;
+
+
+Looking forward to seeing how others solved the last part.
+
+-------------------------------------------------------------------------------------------------
+Reading the flag from the "ascii art" output shows: 
+AH_HE_IS_A_DUMB_KID_BUT_HE_IS_A_AN_ABOVE_AVERAGE_DOG_ROLL_OVER_SON
