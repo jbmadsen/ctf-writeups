@@ -1,0 +1,28 @@
+FROM ubuntu:latest
+
+RUN apt-get update
+
+RUN apt-get install gdb -y
+RUN apt-get install make -y
+RUN apt-get install less -y
+RUN apt-get install netcat -y
+RUN apt-get install xclip -y
+RUN apt-get install wget -y
+RUN apt-get install ltrace -y
+RUN apt-get install strace -y
+RUN apt-get install wireshark -y
+RUN apt-get install git -y
+RUN apt-get install python3 -y
+RUN apt-get install nano -y
+RUN apt-get install john -y
+RUN apt-get install exiftool -y
+RUN apt-get install libc6-i386 -y
+#RUN apt-get install binwalk -y
+
+# TODO: Add git repo for radare2, pull, and make using thier install script
+
+# TODO: Copy local ssh keys into container to allow ssh from there
+
+RUN mkdir /mnt/pico 
+
+
