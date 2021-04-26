@@ -1,0 +1,30 @@
+TODO:
+Download file: '2.pcapng'
+
+Get tshark output of pcapng file, for Leftover Capture Data:
+Terminal: tshark -r 'file' -T fields -e usb.capdata > 'dest_file'
+
+Run python code leftover.py
+
+Find Hash online  
+https://www.virustotal.com/#/file/42c3d3ba5c099106fc21ab53908495d5ef2ff9fcaa890b1c7ef4386bc0893f2f/community
+
+Run in terminal:
+telnet 45.63.119.180
+HELLO
+
+Get http://nc3ctffqqn5ozfjy.onion/2092c7a391323c18413e33f9840c47e6/ as response, and download file
+
+Download file: 'g'
+
+which is a ELF 64-bit LSB shared object
+
+run: gdb 'file'
+and 
+'run main' on the correct UTC time
+
+and get the following link
+http://nc3ctffqqn5ozfjy.onion/1228468024/
+
+and the flag:
+DO_IT_FOR_THIS_ADORABLE_LITTLE_POPPY_LOOK_AT_THE_PUPPY_MARGE 
